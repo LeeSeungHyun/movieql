@@ -6,7 +6,10 @@
   "author": "Seunghyun",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
